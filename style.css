@@ -1,0 +1,81 @@
+:root {
+  --section_bg: rgba(63, 63, 63, 0.75);
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  overscroll-behavior: none;
+}
+
+main {
+  color: wheat;
+  z-index: 99;
+  position: absolute;
+  width: 100%;
+  margin: 0px auto;
+
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+
+  font-family: 'Ubuntu', sans-serif;
+}
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+header, section {
+  height: 100vh;
+}
+
+header {
+  grid-column: 5 / span 4;
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.header-info-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+}
+
+.header-info-container p {
+  margin-top: 0;
+}
+
+section {
+  grid-column: 2 / span 4;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+.info-container {
+  background: var(--section_bg);
+  border-radius: 5px;
+  -moz-box-shadow: inset 0 0 15px #000000;
+  -webkit-box-shadow: inset 0 0 15px #000000;
+  box-shadow: inset 0 0 15px #000000;
+  padding: 1rem;
+}
+
+#find-me {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.fa-brands {
+  color: wheat;
+}
+
+.job a {
+  color: wheat;
+  font-weight: bold;
+}
