@@ -1,5 +1,5 @@
 import "./style.css";
-import bgUrl from "/space.jpg";
+import bgUrl from "/assets/space.jpg";
 
 import * as THREE from "three";
 
