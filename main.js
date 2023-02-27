@@ -1,5 +1,5 @@
+import imgUrl from "./resources/space.jpg";
 import "./style.css";
-import imgUrl from "/resources/space.jpg";
 
 import * as THREE from "three";
 
