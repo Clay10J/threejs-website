@@ -1,4 +1,3 @@
-import imgUrl from "./resources/space.jpg";
 import "./style.css";
 
 import * as THREE from "three";
@@ -59,7 +58,7 @@ function addStar() {
 
 Array(200).fill().forEach(addStar);
 
-const spaceTexture = new THREE.TextureLoader().load(imgUrl);
+const spaceTexture = new THREE.TextureLoader().load("space.jpg");
 scene.background = spaceTexture;
 
 function moveCamera() {
